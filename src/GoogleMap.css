@@ -1,0 +1,38 @@
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Haritayı sola yaslıyoruz */
+    justify-content: center;
+    margin-left: 1%;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .location-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .route-button {
+    width: 80%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .route-button:hover {
+    background-color: #0056b3;
+  }
+  
